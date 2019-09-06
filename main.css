@@ -1,0 +1,88 @@
+@font-face {
+	font-family: Anime;
+	src: url('font/9420.ttf');
+}
+body {
+	background: url('img/bg.jpg') no-repeat fixed;
+    background-size: cover;
+}
+h1 {
+	color: #FFFFFF;
+	text-align: center;
+	font-size: 32px;
+	font-family: "Anime", sans-serif;
+}
+tr.image {
+	text-align: center;
+	height: 500px;
+}
+tr.name {
+	color: #FFFFFF;
+	text-align: center;
+	font-size: 24px;
+	font-family: "Anime", sans-serif;
+	vertical-align: text-middle;
+	height: 32px;
+}
+tr.desc {
+	color: #FFFFFF;
+	text-indent: 20px;
+	font-size: 18px;
+	font-family: "Comic Sans MS", sans-serif;
+	vertical-align: text-top;
+	text-align: justify;
+	height: 178px;
+}
+td.desc{
+	width: 300px;
+}
+td.side {
+	padding: 0 20px;
+	opacity: 0.5;
+}
+td.side_text {
+	width: 330px;
+	padding: 0 20px;
+	opacity: 0.5;
+}
+td.mid_text {
+	width: 330px;
+}
+button.side {
+	width: 64px;
+	height: 64px;
+	background-color: transparent;
+	border: none;
+	outline: none;
+}
+button.last {
+	margin: 0 0 12px 0;
+}
+img#left {
+	background-image: url(img/left.png);
+}
+img#left:hover {
+	background-image: url(img/left_hover.png);
+}
+img#right {
+	width: 64px;
+	height: 64px;
+	background-image: url(img/right.png);
+}
+img#right:hover {
+	background-image: url(img/right_hover.png);
+}
+p {
+	font-size: 20px;
+	font-family: "Comic Sans MS", sans-serif;
+}
+p.question {
+	margin: 10px 0;
+	color: #FFFFFF;
+	text-align: center;
+}
+p#sign {
+	margin: 4px 0 0 0;
+	color: #FFFFFF;
+	text-align: right;
+}

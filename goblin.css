@@ -1,0 +1,19 @@
+body {
+	background: url('img/goblin_bg.jpg') no-repeat fixed;
+	background-size: cover;
+}
+video#goblin {
+	position: absolute;
+	left: 50%;
+	transform: translate(-50%, -420px);
+	width: 720px;
+	border: none;
+	outline: none;
+}
+p#after {
+	margin: 660px 0 0 0;
+	font-family: "Comic Sans MS", sans-serif;
+	text-align: center;
+	font-size: 18px;
+	color: #FFFFFF;
+}
