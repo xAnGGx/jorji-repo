@@ -1,0 +1,109 @@
+# depslib dependency file v1.0
+1524936369 source:d:\george\cpp projects\mazerpg\main.cpp
+	<iostream>
+	<ctime>
+	<cstdlib>
+	<windows.h>
+	<conio.h>
+
+1531852346 source:d:\george\cpp projects\games\mazerpg\main.cpp
+	<iostream>
+	<fstream>
+	<ctime>
+	<cstdlib>
+	<windows.h>
+	<conio.h>
+	<mmsystem.h>
+	<cmath>
+	<vector>
+
+1527171734 source:c:\users\Ученик\downloads\mazerpg\main.cpp
+	<iostream>
+	<vector>
+	<ctime>
+	<cstdlib>
+	<windows.h>
+	<conio.h>
+	<mmsystem.h>
+
+1526633173 source:d:\cpp projects\mazerpg\main.cpp
+	<iostream>
+	<vector>
+	<ctime>
+	<cstdlib>
+	<windows.h>
+	<conio.h>
+	<mmsystem.h>
+
+1533813508 source:c:\c++ projects\mazerpg\main.cpp
+	<iostream>
+	<fstream>
+	<ctime>
+	<cstdlib>
+	<windows.h>
+	<conio.h>
+	<mmsystem.h>
+	<cmath>
+	<vector>
+	<SFML/Audio.hpp>
+
+1533916062 source:d:\george\cpp projects\games\mazerpg-pre0.7.0\main.cpp
+	<iostream>
+	<fstream>
+	<ctime>
+	<cstdlib>
+	<windows.h>
+	<conio.h>
+	<mmsystem.h>
+	<cmath>
+	<vector>
+	<SFML/Audio.hpp>
+
+1534678717 source:c:\george\cpp projects\games\mazerpg-pre0.7.0\main.cpp
+	<iostream>
+	<fstream>
+	<ctime>
+	<cstdlib>
+	<windows.h>
+	<conio.h>
+	<mmsystem.h>
+	<cmath>
+	<vector>
+	<SFML/Audio.hpp>
+
+1549722676 source:c:\george\cpp projects\games\mazerpg\main.cpp
+	<iostream>
+	<fstream>
+	<ctime>
+	<cstdlib>
+	<windows.h>
+	<conio.h>
+	<mmsystem.h>
+	<cmath>
+	<vector>
+	<SFML/Audio.hpp>
+
+1536092006 source:d:\mazerpg\main.cpp
+	<iostream>
+	<fstream>
+	<ctime>
+	<cstdlib>
+	<windows.h>
+	<conio.h>
+	<mmsystem.h>
+	<cmath>
+	<vector>
+	<SFML/Audio.hpp>
+
+1538059020 source:e:\mazerpg-dev\mazerpg\main.cpp
+	<iostream>
+	<fstream>
+	<ctime>
+	<cstdlib>
+	<windows.h>
+	<conio.h>
+	<mmsystem.h>
+	<cmath>
+	<vector>
+	<SFML/Audio.hpp>
+
