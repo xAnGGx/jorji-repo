@@ -4,14 +4,14 @@
 #include <avr/io.h>
 #include <util/delay.h>
 int main() {
-	short up;
-	short cur = 0x01;
+	unsigned short up;
+	unsigned short cur = 0x01;
 	DDRA = 0xFF;
 	DDRB = 0x00;
 	PORTB = 0xFF;
-	while (true) {
+	while (1) {
 		PORTA = cur;
-		_delay_ms(500);
+		_delay_ms(100);
 		up = PINB;
 		if (up)
 			cur = (cur << 1) | (cur >> 7);
