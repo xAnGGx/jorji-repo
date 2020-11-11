@@ -12,7 +12,7 @@ int main() {
 	while (1) {
 		PORTA = cur;
 		_delay_ms(100);
-		up = PINB;
+		up = PINB & 0x01;
 		if (up)
 			cur = (cur << 1) | (cur >> 7);
 		else
