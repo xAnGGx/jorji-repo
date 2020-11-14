@@ -17,5 +17,6 @@ int main() {
 			cur = (cur << 1) | (cur >> 7);
 		else
 			cur = (cur >> 1) | (cur << 7);
+		if (!(cur & 0xFF)) cur = 0x01;
 	}
 }
