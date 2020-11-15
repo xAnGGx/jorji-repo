@@ -1,8 +1,4 @@
-#ifndef F_CPU
-#define F_CPU 4000000UL
-#endif
 #include <avr/io.h>
-#include <util/delay.h>
 #include <avr/eeprom.h>
 int main() {
 	DDRA = 0x00;
@@ -10,12 +6,8 @@ int main() {
 	DDRC = 0xFF;
 	PORTA = 0xFF;
 	PORTB = 0xFF;
-	unsigned char addr_a = PINA;
-	unsigned char addr_b = PINB;
-	unsigned char a = eeprom_read_byte((uint8_t*)addr_a);
-	unsigned char b = eeprom_read_byte((uint8_t*)addr_b);
-	PORTC = a;
-	PORTC = b;
+	PORTC = eeprom_read_byte((uint8_t*)(uint16_t)PINA);
+	PORTC = eeprom_read_byte((uint8_t*)(uint16_t)PINB);
 	while (1) {
 		continue;
 	}
