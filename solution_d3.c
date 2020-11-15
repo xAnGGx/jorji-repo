@@ -2,7 +2,6 @@
 #define 4000000UL
 #endif
 #include <avr/io.h>
-#include <util/delay.h>
 #include <avr/eeprom.h>
 #include <avr/interrupt.h>
 volatile unsigned int ms_passed = 0;
@@ -106,8 +105,7 @@ void output_time(unsigned int num) {
 }
 ISR(TIMER0_COMPA_vect) {
 	ms_passed++;
-	ms_passed %= 1000;
-	output_time(ms_passed);
+	output_time(ms_passed % 1000);
 }
 int main() {
 	DDRA = 0xFF;
