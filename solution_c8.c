@@ -8,17 +8,16 @@ int main() {
 	DDRC = 0xFF;
 	PORTA = 0x00;
 	PORTC = 0x00;
-	_delay_ms(50);
 	PORTC &= 0b11111110;
 	PORTC |= 0b00000100;
 	PORTA = 0b00001100;
 	PORTC &= 0b11111011;
-	_delay_us(80);
+	_delay_us(20);
 	PORTC &= 0b11111110;
 	PORTC |= 0b00000100;
 	PORTA = 0b00000110;
 	PORTC &= 0b11111011;
-	_delay_us(160);
+	_delay_us(40);
 	char *str = "Hello World!";
 	for (int i = 0; str[i]; i++) {
 		PORTC |= 0b00000001;
