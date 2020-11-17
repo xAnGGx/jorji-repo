@@ -1,0 +1,2 @@
+void logDebug(char a) {
+}
